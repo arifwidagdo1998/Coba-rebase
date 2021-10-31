@@ -7,8 +7,8 @@
         default:
             $halaman=$opsi;
             if($halaman==''){
-                $halaman = 'home';
-                require_once (PUB_DIR . 'home.html');   
+                $halaman = 'main';
+                require_once (PUB_DIR . 'main.html');   
             }else{
                 $namafile = $halaman.'.php';
                 if(file_exists($namafile)){
